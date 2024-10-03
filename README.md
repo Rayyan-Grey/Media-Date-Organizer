@@ -27,7 +27,14 @@ A Python-based automation tool that organizes photos and videos into directories
 3. Install the required dependencies:
 
 ## Usage
-- Set the path of your source directory (where your media files are located) and the destination directory (where organized files will be moved).
+- Open organize.py and modify the following lines to set the source and destination directories:
+  ```bash
+  if __name__ == "__main__":
+    source_directory = "/path/to/your/source/folder"  # Replace with the path to your photos/videos folder
+    destination_directory = "/path/to/your/destination/folder"  # Replace with the destination folder path
+    
+    organize_photos_and_videos_by_date(source_directory, destination_directory)
+
 - Run the script:
   ```bash
   python organize.py
