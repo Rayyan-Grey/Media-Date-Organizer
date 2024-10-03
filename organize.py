@@ -74,7 +74,8 @@ def organize_photos_and_videos_by_date(src_directory, dest_directory):
                     print(f"Could not extract or fallback to date for {file}")
 
 if __name__ == "__main__":
-    source_directory = r"C:\Users\hp\Desktop\PICS"  # Replace with the path to your photos directory
-    destination_directory = r"C:\Users\hp\Desktop\Dist"  # Replace with where you want to organize them
+    source_directory = "/path/to/your/source/folder"  # Replace with the path to your photos/videos folder
+    destination_directory = "/path/to/your/destination/folder"  # Replace with the destination folder path
     
     organize_photos_and_videos_by_date(source_directory, destination_directory)
+
